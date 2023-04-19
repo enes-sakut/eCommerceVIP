@@ -6,7 +6,7 @@
 
 - 🔭 [EcommerceVIP](https://github.com/enes-sakut/eCommerceVIP) This interview project created  VIP Clean Architecture Pattern and Firebase Real Time Database. Fully programmatic UI and no Storyboard, Xib
 
-<h3 align="left">Pazarama App is the final project of Pazarama iOS interview. It is an e-commerce application with add products and baskets processes with Firebase Relatime Database. After run the project you can add products to the shopping cart which is created with Real time database. There are homepage,shopping cart and product detail pages in Pazarama App.</h3>
+<h3 align="left">EcommerceVIP App is the project of Pazarama iOS interview. It is an e-commerce application with add products and baskets processes with Firebase Relatime Database. After run the project you can add products to the shopping cart which is created with Real time database. There are homepage,shopping cart and product detail pages in Pazarama App.</h3>
 <p align="left">
 </p>
 
