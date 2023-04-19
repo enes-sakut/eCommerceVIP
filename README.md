@@ -1,10 +1,8 @@
-<h1 align="center" id="title">Pazarama App</h1>
+<h1 align="center" id="title">[EcommerceVIP](https://github.com/enes-sakut/eCommerceVIP)</h1>
 
 <p align="center"><img src="https://img.shields.io/static/v1?label=test&amp;message=3&amp;color=green" alt="shields"><img src="https://img.shields.io/badge/license-MIT-orange" alt="shields"><img src="https://img.shields.io/badge/platform-ios-gray" alt="shields"></p>
 
 <p align="center"><img src="https://global-uploads.webflow.com/6097e0eca1e875de53031ff6/61b9b28acbf4d14f8b0fbe90_pazarama%20logo.png" alt="project-image"></p>
-
-<p id="description">Pazarama App is the final project of Pazarama iOS Bootcamp. It is an e-commerce application with registration and login processes with Firebase. After logging, users can add products to the shopping cart which is created with Core Data. There are onboarding, login, registration, homepage, categories, shopping cart, profile and product detail pages in Pazarama App.  </p>
 
 - 🔭 [EcommerceVIP](https://github.com/enes-sakut/eCommerceVIP) This interview project created VIP(Clean Architechture) and Firebase Real Time Database. Fully programmatic UI and no Storyboard, Xib
 
