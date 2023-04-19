@@ -14,4 +14,4 @@
 <div align="center"> <img width="430" alt="Screen Shot 2023-04-19 at 07 31 10" src="https://user-images.githubusercontent.com/22794798/233176357-5869e994-8b03-4e03-aa6e-f0eae7ce241a.png"</img> 
 <img width="422" alt="Screen Shot 2023-04-19 at 07 31 21" src="https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png"</img> 
 </div>
-<div align="left"><img width="420" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> 
+<div align="left"><img width="420" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> </div>
