@@ -10,8 +10,12 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> </p>
 
+<h3> Project Video: </h3>
+
+https://user-images.githubusercontent.com/22794798/233180380-8ce21a5f-c57a-4e18-af04-a44d8bf58287.mp4
+
 <h3> Project screen shoots: </h3>
-<div align="left"> <img width="330" alt="Screen Shot 2023-04-19 at 07 31 10" src="https://user-images.githubusercontent.com/22794798/233176357-5869e994-8b03-4e03-aa6e-f0eae7ce241a.png"</img> 
-<img width="322" alt="Screen Shot 2023-04-19 at 07 31 21" src="https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png"</img> 
-  <img width="320" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> 
+<div align="left"> <img width="230" alt="Screen Shot 2023-04-19 at 07 31 10" src="https://user-images.githubusercontent.com/22794798/233176357-5869e994-8b03-4e03-aa6e-f0eae7ce241a.png"</img> 
+<img width="222" alt="Screen Shot 2023-04-19 at 07 31 21" src="https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png"</img> 
+  <img width="220" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> 
 </div>
