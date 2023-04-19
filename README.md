@@ -15,19 +15,9 @@
 https://user-images.githubusercontent.com/22794798/233180380-8ce21a5f-c57a-4e18-af04-a44d8bf58287.mp4
 
 <h3> Project screen shoots: </h3>
-<div align="left"> <img width="230" alt="Screen Shot 2023-04-19 at 07 31 10" src="https://user-images.githubusercontent.com/22794798/233176357-5869e994-8b03-4e03-aa6e-f0eae7ce241a.png"</img> 
-<img width="222" alt="Screen Shot 2023-04-19 at 07 31 21" src="https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png"</img> 
-  <img width="220" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> 
-</div>
-
-<h2>Project Screenshots:</h2>
-
-<div align="left">
-
-<img src="[https://user-images.githubusercontent.com/64533036/200044739-a151540c-fd37-478e-bc19-0631ec7edfe3.png](https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png)" alt="project-screenshot" width="236" height="448" />
-
-<img src="[https://user-images.githubusercontent.com/64533036/200045085-2735a54f-f98a-4571-987d-212789f1f307.png](https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png)" alt="project-screenshot" width="236" height="448" />
-
+<div align="left"> <img width="236" height="448" alt="Screen Shot 2023-04-19 at 07 31 10" src="https://user-images.githubusercontent.com/22794798/233176357-5869e994-8b03-4e03-aa6e-f0eae7ce241a.png"</img> 
+<img width="236" height="448" alt="Screen Shot 2023-04-19 at 07 31 21" src="https://user-images.githubusercontent.com/22794798/233176364-c49490e2-8dc7-4a3f-9465-973c0a11c412.png"</img> 
+  <img width="236" height="448" alt="Screen Shot 2023-04-19 at 07 31 33" src="https://user-images.githubusercontent.com/22794798/233176373-2b3a0020-49c0-4c8b-bc07-ad8b808c958b.png"</img> 
 </div>
 
 <h2>Built with</h2>
