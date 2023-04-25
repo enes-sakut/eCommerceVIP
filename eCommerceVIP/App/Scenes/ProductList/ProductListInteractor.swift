@@ -14,30 +14,30 @@ import UIKit
 
 protocol ProductListBusinessLogic
 {
-  func fetchProducts()
-  func productForIndexPath(_ indexPath: IndexPath) -> ProductList.ProductModel?
-  func didSelectItemAt(_ indexPath: IndexPath)
-   func fetchBaskets()
-  var products: [ProductList.ProductModel]? { get set }
+    func fetchProducts()
+    func productForIndexPath(_ indexPath: IndexPath) -> ProductList.ProductModel?
+    func didSelectItemAt(_ indexPath: IndexPath)
+    func fetchBaskets()
+    var products: [ProductList.ProductModel]? { get set }
     func addBasket(product: ProductList.ProductModel?, piece: Int?)
     func getBasketProductCount()
-
+    
 }
 
 protocol ProductListDataStore
 {
-  //var name: String { get set }
-
+    //var name: String { get set }
+    
 }
 
 class ProductListInteractor: ProductListBusinessLogic, ProductListDataStore
 {
-   var products: [ProductList.ProductModel]?
+    var products: [ProductList.ProductModel]?
     
-  var presenter: ProductListPresentationLogic?
-  var worker: ProductListWorker?
+    var presenter: ProductListPresentationLogic?
+    var worker: ProductListWorker?
     private var basketCountListener: BasketCountNotificationHandler = BasketCountNotificationHandler()
-  
+    
     func fetchProducts() {
         worker = ProductListWorker()
         let _ = worker?.fecthProducts(completion: { productModel in

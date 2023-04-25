@@ -14,8 +14,8 @@ import UIKit
 
 protocol ProductListPresentationLogic
 {
-  func presentProductList(viewModel: [ProductList.ProductModel]?)
-  func navigateToProductDetail(product: ProductList.ProductModel)
+    func presentProductList(viewModel: [ProductList.ProductModel]?)
+    func navigateToProductDetail(product: ProductList.ProductModel)
     func updateNavbarBaskets()
     func productAddedToBasket()
     func setBasketButtonBadge()
@@ -23,8 +23,8 @@ protocol ProductListPresentationLogic
 
 class ProductListPresenter: ProductListPresentationLogic
 {
-  weak var viewController: ProductListDisplayLogic?
-  
+    weak var viewController: ProductListDisplayLogic?
+    
     func presentProductList(viewModel: [ProductList.ProductModel]?) {
         viewController?.presentProductList(viewModel: viewModel)
     }
@@ -36,8 +36,8 @@ class ProductListPresenter: ProductListPresentationLogic
     }
     func productAddedToBasket() {
         viewController?.notifyBasketProductCount()
-     }
-     func setBasketButtonBadge() {
-         viewController?.setBasketButtonBadge()
-     }
+    }
+    func setBasketButtonBadge() {
+        viewController?.setBasketButtonBadge()
+    }
 }

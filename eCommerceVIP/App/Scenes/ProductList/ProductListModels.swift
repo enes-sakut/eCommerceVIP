@@ -15,39 +15,22 @@ import UIKit
 enum ProductList
 {
     struct ProductModel: Identifiable, Codable {
-
-//        init(id: Int? = nil, title: String? = nil, description: String? = nil, imageUrl: [String]? = nil, price: Double? = nil, count: Int? = nil, productInfo: ProductInfo? = nil) {
-//           self.id = id
-//           self.title = title
-//           self.description = description
-//           self.imageUrl = imageUrl
-//           self.price = price
-//           self.productInfo = productInfo
-//       }
-
-       var id: Int?
-       var title: String?
-       var description: String?
-       var imageUrl: [String]?
-       var price: Double?
-       var count: Int?
-       var productInfo: ProductInfo?
-
-
-   }
-   struct ProductInfo: Codable {
-//       init(size: String? = nil, type: String? = nil, color: String? = nil, productBrand: String? = nil) {
-//           self.size = size
-//           self.type = type
-//           self.color = color
-//           self.productBrand = productBrand
-//       }
-
-       var size: String?
-       var type: String?
-       var color: String?
-       var productBrand: String?
-   }
+        var id: Int?
+        var title: String?
+        var description: String?
+        var imageUrl: [String]?
+        var price: Double?
+        var count: Int?
+        var productInfo: ProductInfo?
+        
+        
+    }
+    struct ProductInfo: Codable {
+        var size: String?
+        var type: String?
+        var color: String?
+        var productBrand: String?
+    }
 }
 
 extension ProductList.ProductModel {
