@@ -76,6 +76,33 @@ class ProductListWorker
         }
         
     }
+    func fetchSearchProduct(_ searchText: String?, completion: @escaping ((_ productModel: [ProductList.ProductModel]?)-> ())) {
+        guard let text = searchText else { return }
+        
+        var products: [ProductList.ProductModel] = []
+        ref.observe(.value) { snapshot in
+            if let snapshot = snapshot.children.allObjects as? [DataSnapshot] {
+                for snap in snapshot {
+                    if let productDict = snap.value as? Dictionary<String, AnyObject> {
+                        
+                        if let modelInfo = productDict["productInfo"] {
+                            let infoModel = ProductList.ProductInfo(from: modelInfo)
+                            var viewModel = ProductList.ProductModel(from: productDict)
+                            viewModel.productInfo = infoModel
+                            products.append(viewModel)
+                        }
+                    }
+                }
+                products = products.filter({ product in
+                    guard let productTitle = product.title else {
+                        return false
+                    }
+                    return (productTitle.lowercased().contains(text.lowercased()))
+                })
+            }
+            completion(products)
+        }
+    }
     
 }
 

@@ -20,18 +20,18 @@ import UIKit
 
 protocol ProductListDataPassing
 {
-  var dataStore: ProductListDataStore? { get }
-  var product:  ProductList.ProductModel? { get set }
+    var dataStore: ProductListDataStore? { get }
+    var product:  ProductList.ProductModel? { get set }
     
 }
 
 class ProductListRouter: NSObject, ProductListRoutingLogic, ProductListDataPassing
 {
     var product: ProductList.ProductModel?
-  weak var viewController: ProductListViewController?
-  var dataStore: ProductListDataStore?
-  
-  // MARK: Navigation
+    weak var viewController: ProductListViewController?
+    var dataStore: ProductListDataStore?
+    
+    // MARK: Navigation
     
     func navigateToProductDetail() {
         let vc  = ProductDetailViewController()

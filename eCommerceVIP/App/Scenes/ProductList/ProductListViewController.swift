@@ -120,6 +120,7 @@ class ProductListViewController: UIViewController, ProductListDisplayLogic, Aler
         let tapGesture = UITapGestureRecognizer()
         myView.addGestureRecognizer(tapGesture)
             tapGesture.addTarget(self, action: #selector(didTapBackgroundView))
+        searchView.searchDelegate = self
         }
     
     @objc private func didTapBackgroundView() {
@@ -186,6 +187,7 @@ class ProductListViewController: UIViewController, ProductListDisplayLogic, Aler
     }
     func presentProductList(viewModel: [ProductList.ProductModel]?) {
         interactor?.products = viewModel
+        self.productListView.refresh()
     }
     
     @objc private func didTapBasketButton() {
@@ -253,5 +255,10 @@ extension ProductListViewController: ProductListCollectionViewCellDelegate {
     func didTapAddBasket(_ product: ProductList.ProductModel?, piece: Int?) {
         interactor?.addBasket(product: product, piece: piece)
         showAlert(title: "Success", message: "Product has been added to basket.")
+    }
+}
+extension ProductListViewController: SearchTextFieldDelegate {
+    func textFieldDidBeginEditing(searchText: String?) {
+        interactor?.searchProduct(searchText: searchText)
     }
 }

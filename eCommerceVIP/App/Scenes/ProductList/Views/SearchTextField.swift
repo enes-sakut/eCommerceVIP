@@ -7,7 +7,13 @@
 
 import UIKit
 
+public protocol SearchTextFieldDelegate: AnyObject {
+    func textFieldDidBeginEditing(searchText: String?)
+}
+
 class SearchTextField: UITextField {
+    
+    public weak var searchDelegate: SearchTextFieldDelegate?
     
     private lazy var searchButton: UIButton = {
         let button = UIButton()
@@ -39,6 +45,7 @@ class SearchTextField: UITextField {
         clearButtonMode = .always
         leftView = searchButton
         leftViewMode = .always
+        self.addTarget(self, action: #selector(editingDidChange(textField:)), for: .editingChanged)
     }
 
     override func leftViewRect(forBounds bounds: CGRect) -> CGRect {
@@ -57,6 +64,10 @@ class SearchTextField: UITextField {
 
     override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.inset(by: UIEdgeInsets(top: 12.0, left: 40.0, bottom: 12.0, right: 36.0))
+    }
+    @objc func editingDidChange(textField: UITextField) {
+        let newText = textField.text ?? ""
+        searchDelegate?.textFieldDidBeginEditing(searchText: newText)
     }
 
 }

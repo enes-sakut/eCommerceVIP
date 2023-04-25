@@ -21,7 +21,7 @@ protocol ProductListBusinessLogic
     var products: [ProductList.ProductModel]? { get set }
     func addBasket(product: ProductList.ProductModel?, piece: Int?)
     func getBasketProductCount()
-    
+    func searchProduct(searchText: String?)
 }
 
 protocol ProductListDataStore
@@ -77,6 +77,17 @@ class ProductListInteractor: ProductListBusinessLogic, ProductListDataStore
     func getBasketProductCount() {
         basketCountListener.handleUpdates = {
             self.presenter?.setBasketButtonBadge()
+        }
+    }
+    func searchProduct(searchText: String?) {
+        worker = ProductListWorker()
+        if searchText?.count ?? 0 > 2 {
+            let _ = worker?.fetchSearchProduct(searchText, completion: { searchedProducts in
+                self.presenter?.presentProductList(viewModel: searchedProducts )
+            })
+        } else {
+            self.products = []
+            self.fetchProducts()
         }
     }
 }
